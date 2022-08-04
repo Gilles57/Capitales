@@ -1,0 +1,12 @@
+print('\n' + '*' * 32)
+print(f"*{' Le jeu des capitales':^30}*")
+print(f"*{'© Gilles Salmon - 2022':^30}*")
+print('*' * 32)
+
+print("Bienvenue dans le jeu des capitales\n")
+print("Tu devras trouver la capitale des pays proposés")
+print("Tu peux choisir de jouer avec tous les pays du monde")
+print("ou seulement les pays d'Europe")
+print("Tu peux également choisir le nombre de questions qui seront posées\n")
+print("Si tu ne connais pas la réponse, tape ENTRÉE, tu auras un indice")
+print("\nBonne chance !")
