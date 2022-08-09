@@ -17,7 +17,7 @@ def menu(prompt, items):
         choice = input("Quel est ton choix ? ")
         for item in items:
             if choice == item[0]:
-                tools.clear_screen()
+                clear_screen()
                 return choice
-        tools.clear_screen()
+        clear_screen()
         print("Choix erroné !")
