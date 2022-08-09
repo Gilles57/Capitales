@@ -14,7 +14,7 @@ def menu(prompt, items):
         for item in items:
             print(f'[{item[0]}] {item[1]}')
 
-        choice = input("Quel est ton choix ? ")
+        choice = input("Option choisie ? ")
         for item in items:
             if choice == item[0]:
                 clear_screen()
